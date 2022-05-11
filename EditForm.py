@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import QWidget, QLineEdit, QCheckBox, QVBoxLayout, QGroupBox, QGridLayout, QRadioButton, QLabel, QSpinBox, QHBoxLayout
 from DCMReader import DCMGroup
 
 

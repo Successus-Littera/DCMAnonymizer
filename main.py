@@ -2,9 +2,8 @@ import sys
 import os
 import traceback
 
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QWidget, QMessageBox, QHBoxLayout, QLineEdit, QPushButton, QLabel, QFileDialog, QGridLayout, QMainWindow, QStatusBar, QProgressBar, QApplication
+from PyQt5.QtCore import pyqtSignal
 
 
 from DCMReader import DCMGroup

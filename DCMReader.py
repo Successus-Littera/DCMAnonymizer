@@ -1,7 +1,7 @@
 import os
 import datetime as dt
 
-from PyQt5.QtCore import *
+from PyQt5.QtCore import QObject, pyqtSignal
 import pydicom
 
 
